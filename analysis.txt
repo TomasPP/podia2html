@@ -1,0 +1,12 @@
+After login when you open any course page. The following cookies are passed with request:
+coach_visitor_id=xxxxxxxxxxxxx;
+sidebar-active=true;
+__distillery=xxxxxxxxxxxxx;
+_ga=xxxxxxxxxxxxx;
+_gid=xxxxxxxxxxxxx;
+_coach_session=xxxxxxxxxxxxx
+
+Response:
+_coach_session=xxxxxxxxxxxxx
+new value of _coach_session cookie is returned with each response but nothing happens if I pass old value to next request. So ignoring for now.
+

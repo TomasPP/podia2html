@@ -1,0 +1,6 @@
+coach_visitor_id=xxxxxxxxxxxxx
+sidebar-active=true
+__distillery=xxxxxxxxxxxxx
+_ga=xxxxxxxxxxxxx
+_gid=xxxxxxxxxxxxx
+_coach_session=xxxxxxxxxxxxx
