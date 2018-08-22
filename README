@@ -13,7 +13,7 @@ You can use Intellij project for running it.
 
 Or build project with Maven in project directory:
 mvn package
-this creates target dir with jar in project directory.
+this creates target dir with jar in project directory. 
 
 Before running modify cookies.txt file with your cookies values. Take them after you login to your course page in Chrome browser
 from request headers:
