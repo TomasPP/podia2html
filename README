@@ -1,0 +1,29 @@
+Java tool for educational personal purposes to convert podia.com hosted specific course (heavy on the text with some images).
+Tool converts multiple pages to a one html that can be later converted to the e-book format with Calibre.
+
+Tool tested only for one course so it might not suit for other courses
+or podia.com might introduce major changes in pages HTML that will brake functionality.
+
+Tool does not convert image tags to point to local images. For this open in Chrome output html and do 'Save as' to save page with images locally.
+
+JSoup Java library is used for web scrapping.
+
+Usage:
+You can use Intellij project for running it.
+
+Or build project with Maven in project directory:
+mvn package
+this creates target dir with jar in project directory.
+
+Before running modify cookies.txt file with your cookies values. Take them after you login to your course page in Chrome browser
+from response headers:
+https://www.mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/
+
+Then command line from project directory:
+java -jar target/podia2html-1.0-SNAPSHOT.jar <course url>
+
+For first test run specify to download only one page:
+java -jar target/podia2html-1.0-SNAPSHOT.jar <course url> 1
+
+Check newly created 'output' directory in project directory.
+
