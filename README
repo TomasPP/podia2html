@@ -19,7 +19,7 @@ Before running modify cookies.txt file with your cookies values. Take them after
 from request headers:
 https://www.mkyong.com/computer-tips/how-to-view-http-headers-in-google-chrome/
 
-Then command line from project directory:
+Then run command line from project directory:
 java -jar target/podia2html-1.0-SNAPSHOT.jar <course url>
 
 For first test run specify to download only one page:
