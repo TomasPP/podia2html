@@ -1,4 +1,5 @@
 /**
+ *
  */
 @SuppressWarnings("WeakerAccess")
 public class Settings {

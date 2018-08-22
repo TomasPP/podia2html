@@ -1,4 +1,4 @@
-coach_visitor_id=xxxxxxxxxxxxx
+coach_visitor_id=xxxxxxxxxxxx
 sidebar-active=true
 __distillery=xxxxxxxxxxxxx
 _ga=xxxxxxxxxxxxx
